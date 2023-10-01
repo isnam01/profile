@@ -6,9 +6,9 @@ import ExperienceCard from '../components/ExperienceCard';
 const Experience = () => {
   return (
     experience && (
-      <section className="section section-lg">
+      <section className="section section-lg py-2">
         <Container>
-          <div className="d-flex p-4">
+          <div className="d-flex py-5 align-items-baseline">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                 <i className="ni ni-briefcase-24 text-info" />

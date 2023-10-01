@@ -7,13 +7,11 @@ const EducationCard = ({
   schoolName,
   subHeader,
   duration,
-  desc,
   grade,
-  descBullets,
 }: EducationType) => {
   return (
     <Fade left duration={2000}>
-      <Card className="card-lift--hover shadow mt-4">
+      <Card className="card-lift--hover shadow mt-5 mb-6">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
@@ -27,14 +25,6 @@ const EducationCard = ({
                   {grade}
                 </Badge>
               )}
-              <p className="description mt-3">{desc}</p>
-              <ul>
-                {descBullets
-                  ? descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
-                  : null}
-              </ul>
             </div>
           </div>
         </CardBody>

@@ -6,9 +6,9 @@ import { Container, Row, Col } from 'reactstrap';
 const Education = () => {
   return (
     educationInfo && (
-      <section className="section pb-0 bg-gradient-info my-5">
+      <section className="section pb-0 bg-gradient-info mt-5 ">
         <Container>
-          <div className="d-flex px-3">
+          <div className="d-flex align-items-baseline">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                 <i className="ni ni-books text-info" />

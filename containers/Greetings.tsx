@@ -13,7 +13,7 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
+        <section className="section section-lg section-shaped pb-100 pt-150">
           <div className="shape shape-style-1 bg-gradient-info">
             <span />
             <span />
@@ -35,7 +35,7 @@ const Greetings = () => {
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (
-                    <div className="btn-wrapper my-4">
+                    <div className="btn-wrapper my-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"

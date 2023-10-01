@@ -8,7 +8,7 @@ import { skillsSection } from '../portfolio';
 const Skills = () => {
   return (
     skillsSection && (
-      <Container className="text-center my-5 section section-lg">
+      <Container className="text-center mt-5 section section-lg">
         <h1 className="h1">{skillsSection.title}</h1>
         <p className="lead">{skillsSection.subTitle}</p>
         {skillsSection.data.map((section, index) => {
@@ -19,7 +19,7 @@ const Skills = () => {
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
                 </Fade>
               </Col>
-              <Col lg="6" className="order-1 order-lg-2">
+              <Col lg="6" className="order-1 order-lg-2 mt-8">
                 <Fade right duration={2000}>
                   <h3 className="h3 mb-2">{section.title}</h3>
                   <div className="d-flex justify-content-center flex-wrap mb-2">
