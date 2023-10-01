@@ -26,7 +26,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://isnam01.github.io/',
+  url: 'https://manc.vercel.app/',
   linkedin: 'https://www.linkedin.com/in/mansi-gupta-898321163/',
   github: 'https://github.com/isnam01',
   instagram: 'https://www.instagram.com/__hanzla100',
