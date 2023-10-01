@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm a passionate frontend developer with expertise in React.js, Next.js, and React Native. I specialize in creating dynamic web applications and intuitive cross-platform mobile experiences. My focus is on delivering seamless, visually appealing interfaces tailored to meet specific requirements.",
   resumeLink:
-    'https://drive.google.com/file/d/15GEN54xfvBYS6Kxd8trNg5FPT3IqJr_d/view?usp=sharing',
+    'https://drive.google.com/file/d/1nU6dEhJjLScS-bQXFXoDYXHzUmcD7h-k/view?usp=sharing',
 };
 
 export const openSource = {
